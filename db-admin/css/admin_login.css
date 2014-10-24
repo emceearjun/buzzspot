@@ -1,0 +1,35 @@
+html, body {
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Arial';
+    background-color: #fefefe;
+}
+
+#form-container {
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #ababab;
+    position: relative;
+    top:170px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+#form-elements {
+    position: relative;
+    top:60px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    top: 0px;
+    position: absolute;
+    background-color: #ababab;
+    border-bottom: 2px solid #9a9a9a;
+    padding-bottom: 10px;
+}

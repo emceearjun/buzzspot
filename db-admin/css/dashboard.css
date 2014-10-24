@@ -1,0 +1,31 @@
+html, body {
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Arial';
+    background-color: #fefefe;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    top: 0px;
+    position: absolute;
+    background-color: #ababab;
+    border-bottom: 2px solid #9a9a9a;
+    padding-bottom: 10px;
+}
+
+#logout-link a{
+    color: #efefef;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+
+#logout-link a:hover {
+    color: #fff; 
+    text-decoration: underline;
+}
