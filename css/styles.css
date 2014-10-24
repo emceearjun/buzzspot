@@ -1,0 +1,84 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-static-top {
+    background-color: #FFD700;
+    border-bottom: 1px solid #FFD700;
+    height: 60px;
+}
+
+#push {
+    height: 80px;
+}
+
+.navbar-fixed-bottom {
+    background-color: #1CA882;
+    border-top: 1px solid #157B60;
+}
+
+.main-dropdown-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-warning {
+    background-color: #FFD700;
+    border: 1px solid #FFD700; 
+    width: 150px;
+    height: 40px;
+}
+
+.btn-warning:hover {
+    background-color: #FFDF21;
+    border: 1px solid #FFD700; 
+}
+
+.btn-warning:focus {
+    background-color: #FFD700; 
+    border: 1px solid #FFD700;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #1CA882;
+}
+
+.dropdown-toggle {
+    width: 40px;
+    border-left: 1px solid #FFDF21;
+}
+
+.btn-group {
+    padding-top: 10px;   
+}
+
+#display-table {
+    position: relative;
+    top: 60px;
+}
+
+.navbar-static-top {
+    border-bottom: 10px solid #1CA882;
+}
+
+.navbar-toggle {
+    border: 0px;   
+}
+
+.navbar-right {
+    background-color: #1CA882;
+    text-align: center;
+    position: relative;
+}
+
+.link {
+    border-right: 1px solid #49D0AC;
+}
+
+.link:hover {
+    background-color: #49D0AC;
+}
+
+.footer-text {
+    font-size: 12px;    
+}
