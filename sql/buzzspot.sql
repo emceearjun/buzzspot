@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 19, 2014 at 09:02 PM
+-- Generation Time: Oct 25, 2014 at 07:14 AM
 -- Server version: 5.5.36
 -- PHP Version: 5.4.27
 
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `cities` (
   `city_id` int(11) NOT NULL AUTO_INCREMENT,
   `city_name` varchar(50) NOT NULL,
   PRIMARY KEY (`city_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `cities`
@@ -60,6 +60,25 @@ CREATE TABLE IF NOT EXISTS `cities` (
 INSERT INTO `cities` (`city_id`, `city_name`) VALUES
 (1, 'Delhi'),
 (2, 'Gurgaon');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `db_admin_tbl`
+--
+
+CREATE TABLE IF NOT EXISTS `db_admin_tbl` (
+  `username` varchar(20) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  PRIMARY KEY (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `db_admin_tbl`
+--
+
+INSERT INTO `db_admin_tbl` (`username`, `password`) VALUES
+('admin', 'admin');
 
 -- --------------------------------------------------------
 
