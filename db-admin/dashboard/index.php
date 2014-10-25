@@ -28,7 +28,7 @@ if (!isset($_GET['failed']) || ($_GET['failed'] != 0 && $_GET['failed'] != 1))
         <div id="container">
             <div id="content">
                 <div id="content-header">
-                    <h4>city_table</h4>
+                    <h4>cities</h4>
                 </div>
                 <form action="../include/submit.php" method="post">
                 <table id="city-table">
