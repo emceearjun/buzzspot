@@ -29,3 +29,41 @@ html, body {
     color: #fff; 
     text-decoration: underline;
 }
+
+#container {
+    margin: 0 auto;
+    width: 900px;
+    border: 1px solid #000;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-bottom: 40px;
+}
+
+#city-table {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    top: -21px;
+}
+
+#content-header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #cdcdcd;
+    height: 40px;
+    border-bottom: 1px solid #000;
+}
+
+#content-header h4 {
+    padding-top: 10px;   
+}

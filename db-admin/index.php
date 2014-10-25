@@ -26,8 +26,8 @@ if (isset ($_GET['failed']) && $_GET['failed'] != 1)
         </div>
         <div id="form-container">
             <form action="include/login.php" method="POST" id="form-elements">
-                Username: <input type="text" name="username" id="textbox"><br /><br />
-                Password: <input type="password" name="password"><br /><br />
+                <b>Username:</b> <input type="text" name="username" id="textbox"><br /><br />
+                <b>Password:</b> <input type="password" name="password"><br /><br />
                 <input type="submit" value="Login"><br /><br />
                 <?php 
                     if(isset($_GET['failed']))
